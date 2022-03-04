@@ -215,15 +215,25 @@ main{
     background: linear-gradient(35deg, #70683B, rgb(126, 35, 35) 10%, goldenrod, #686034);
 }
 
-.intro h1{
+main h1, h2, h3{
     text-shadow:2px 2px 1px black;
     color: gold;
 }
 
-.intro p{
+main i, h3{
+    text-shadow:2px 2px 1px black;
+    color: rgb(13, 151, 13);
+}
+main strong{
     font-weight: 300;
     color: #F0D338;
-    text-shadow: .15em .15em rgb(138, 16, 16);
+    text-shadow: 2px 2px rgb(138, 16, 16);
+}
+
+.intro p{
+    font-weight: 300;
+    color: #000;
+    text-shadow: .05em .05em #f2f2f2;
 }
 
 
